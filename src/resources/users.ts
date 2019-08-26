@@ -58,6 +58,17 @@ export class Users extends Resource<{realm?: string}> {
   });
 
   /**
+   * logout
+   */
+
+  public logout = this.makeRequest<{id: string}, void>({
+    method: 'POST',
+    path: '/{id}/logout',
+    urlParamKeys: ['id'],
+    catchNotFound: true,
+  });
+
+  /**
    * role mappings
    */
 

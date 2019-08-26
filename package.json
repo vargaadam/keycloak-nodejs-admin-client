@@ -1,6 +1,6 @@
 {
-  "name": "keycloak-admin",
-  "version": "1.12.0",
+  "name": "@vargaad95/pr-keycloak-admin",
+  "version": "1.12.1",
   "description": "keycloak admin client",
   "main": "lib/index.js",
   "files": [
@@ -48,5 +48,17 @@
     "typescript": "^2.9.2"
   },
   "author": "wwwy3y3",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vargaadam/keycloak-nodejs-admin-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vargaadam/keycloak-nodejs-admin-client/issues"
+  },
+  "homepage": "https://github.com/vargaadam/keycloak-nodejs-admin-client#readme"
 }
